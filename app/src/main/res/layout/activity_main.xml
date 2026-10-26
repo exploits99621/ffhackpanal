@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:background="@color/bg_dark" android:padding="32dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="FF HACK" android:textColor="@color/accent"
+        android:textSize="36sp" android:textStyle="bold"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Logged in" android:textColor="@color/text_dim" android:layout_marginTop="8dp"/>
+
+    <Button android:id="@+id/startBtn" android:layout_width="wrap_content"
+        android:layout_height="56dp" android:text="@string/start_hack"
+        android:backgroundTint="@color/accent" android:textColor="@color/text_light"
+        android:layout_marginTop="32dp"/>
+
+    <Button android:id="@+id/logoutBtn" android:layout_width="wrap_content"
+        android:layout_height="48dp" android:text="LOGOUT"
+        android:backgroundTint="#333333" android:textColor="@color/text_light"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
