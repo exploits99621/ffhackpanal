@@ -1,0 +1,2 @@
+-keep class com.ffhack.HunterNative { *; }
+-keepclasseswithmembernames class * { native <methods>; }
