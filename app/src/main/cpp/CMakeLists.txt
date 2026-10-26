@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(ffhack LANGUAGES CXX)
+add_library(ffhack SHARED ffhack.cpp)
+target_compile_options(ffhack PRIVATE -O2 -fvisibility=hidden -fstack-protector-strong)
+target_link_libraries(ffhack log)
