@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FF HACK</string>
+    <string name="login_title">FF HACK</string>
+    <string name="login_sub">Enter license key</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="login_checking">Verifying…</string>
+    <string name="login_ok">Welcome</string>
+    <string name="login_fail">Key rejected</string>
+    <string name="login_no_net">Network error</string>
+    <string name="start_hack">START FF HACK</string>
+    <string name="perm_needed">Grant overlay permission to run</string>
+</resources>
